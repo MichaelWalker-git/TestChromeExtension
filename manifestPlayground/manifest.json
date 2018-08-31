@@ -2,14 +2,15 @@
   "manifest_version": 2,
   "name": "Hello World",
   "version": "1.0",
-  "description": "A Hello World paplication",
+  "description": "A Hello World application",
   "icons": {
-    "128": "icon128.png",
-    "48": "icon48.png",
-    "16": "icon16.png",
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
   },
   "browser_action": {
-    "default_icon": "icon16.png",
-    "default_popup": "popup.html",
+    "default_icon": "images/get_started16.png",
+    "default_popup": "popup.html"
   }
 }
