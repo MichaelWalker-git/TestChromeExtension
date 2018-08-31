@@ -13,7 +13,13 @@
     "default_icon": "images/icon16.png",
     "default_popup": "popup.html"
   },
+  "background":{
+    "scripts": ["eventsPage.js"],
+    "persistent": false
+  },
   "permissions": [
-    "storage"
+    "storage",
+    "notifications",
+    "contextMenus"
   ]
 }
